@@ -1,0 +1,86 @@
+{
+    "IsLogin": true,
+    "LoginInfo": {
+        "Mid": 1,
+        "RoleId": 0,
+        "LoginAt": 1704503100,
+        "MgrEnt": {
+            "Id": 1,
+            "Name": "",
+            "Phone": "",
+            "Email": "admin@admin.com",
+            "Pwd": "e10adc3949ba59abbe56e057f20f883e",
+            "Created": "1999-12-31T08:00:00+08:00",
+            "Updated": "2023-12-26T12:37:17+08:00",
+            "Status": 1,
+            "RoleId": 0,
+            "IsSuper": 1,
+            "LastLoginAt": "1999-12-31T08:00:00+08:00",
+            "LastLoginIp": ""
+        }
+    },
+    "errcode": "0",
+    "errlevel": "alert",
+    "errmsg": "操作成功",
+    "requestId": "2c3d9752d47e4656",
+    "result": {
+        "list": [
+            {
+                "Id": 1,
+                "NodeName": "c4a74a164b7de40e58d31fcef5386696",
+                "NodeAddr": "0.0.0.0:10033",
+                "ClusterId": "flexdrive",
+                "TotalSpace": 1073741824,
+                "UsedSpace": 132,
+                "UnusedSpace": 1073741692,
+                "FileCount": 3,
+                "Remark": "",
+                "Created": "2023-12-26T13:45:26+08:00",
+                "Updated": "2024-01-12T11:35:26+08:00",
+                "Status": 1,
+                "LastRegistered": "2024-01-12T11:35:26+08:00"
+            },
+            {
+                "Id": 2,
+                "NodeName": "68d3302bcfdf0bad38965cc6fcf6aa6c",
+                "NodeAddr": "0.0.0.0:10023",
+                "ClusterId": "flexdrive",
+                "TotalSpace": 1073741824,
+                "UsedSpace": 132,
+                "UnusedSpace": 1073741692,
+                "FileCount": 3,
+                "Remark": "",
+                "Created": "2023-12-26T13:45:26+08:00",
+                "Updated": "2024-01-12T11:35:25+08:00",
+                "Status": 1,
+                "LastRegistered": "2024-01-12T11:35:25+08:00"
+            },
+            {
+                "Id": 3,
+                "NodeName": "941648aa16e2868a81592c941f0bfde9",
+                "NodeAddr": "0.0.0.0:10013",
+                "ClusterId": "flexdrive",
+                "TotalSpace": 1073741824,
+                "UsedSpace": 132,
+                "UnusedSpace": 1073741692,
+                "FileCount": 3,
+                "Remark": "",
+                "Created": "2023-12-26T13:45:26+08:00",
+                "Updated": "2024-01-12T11:35:26+08:00",
+                "Status": 1,
+                "LastRegistered": "2024-01-12T11:35:26+08:00"
+            }
+        ],
+        "page": 0,
+        "pagesize": 0,
+        "reqParam": {
+            "CreateStart": "",
+            "CreateEnd": "",
+            "Name": "",
+            "LastActive": 0,
+            "Page": 0,
+            "PageSize": 0
+        },
+        "total": 3
+    }
+}
