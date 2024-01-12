@@ -1,15 +1,6 @@
-# Material UI - Next.js Pages Router example
+# Flexdrive Admin Frontend - Based on Material UI & Next.js Pages Router example
 
 ## How to use
-
-Download the example [or clone the repo](https://github.com/mui/material-ui):
-
-<!-- #default-branch-switch -->
-
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-ui-nextjs-pages-router
-cd material-ui-nextjs-pages-router
-```
 
 Install it and run:
 
@@ -17,14 +8,6 @@ Install it and run:
 npm install
 npm run dev
 ```
-
-or:
-
-<!-- #default-branch-switch -->
-
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-ui-nextjs-pages-router)
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-nextjs-pages-router)
 
 ## The idea behind the example
 
@@ -41,9 +24,12 @@ If you prefer, you can [use styled-components instead](https://mui.com/material-
 The [example folder](https://github.com/mui/material-ui/tree/HEAD/examples/material-ui-nextjs-pages-router) provides an adapter for the use of [Next.js's Link component](https://nextjs.org/docs/pages/api-reference/components/link) with Material UI.
 More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js-pages-router).
 
-## What's next?
 
-<!-- #default-branch-switch -->
+## Others
 
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+Material UI does not have a good Navbar. It is better to implement a new one by yourself based on the AppBar and Menu. 
+Eventhough, the Navbar is poor to experience.
+
+Forms in Material UI have strange problems on arranging. The demo code works different from the official tutorials.
+
+
