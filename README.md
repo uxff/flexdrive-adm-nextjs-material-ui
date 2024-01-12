@@ -32,4 +32,4 @@ Eventhough, the Navbar is poor to experience.
 
 Forms in Material UI have strange problems on arranging. The demo code works different from the official tutorials.
 
-
+The `queryClient` cannot work well in this example. Although I tried various methods to attach QueryClientProvider to my App.
